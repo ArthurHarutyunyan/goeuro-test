@@ -1,0 +1,10 @@
+
+# REST Service Api Path
+endpoint=http://api.goeuro.com/api/v2/position/suggest/en
+
+# CSV file path and name
+# if path is not provided the file will be created in the same direcotry where is the jar file
+# example
+# 1. with full path csvfile=/home/user/export/test.csv (directories should be exist)
+# 2. without full path just only name
+csvfile=test.csv
