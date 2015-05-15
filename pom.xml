@@ -12,6 +12,7 @@
     <properties>
         <org.springframework-version>4.1.4.RELEASE</org.springframework-version>
         <jackson-version>2.5.0</jackson-version>
+        <testng.version>6.8.7</testng.version>
     </properties>
 
     <dependencies>
@@ -55,6 +56,19 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>14.0.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${org.springframework-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

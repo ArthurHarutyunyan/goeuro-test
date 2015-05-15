@@ -19,4 +19,6 @@ public interface CsvExportService {
      * @param data - dCSV data
      */
     public void exportCSVFile(Collection<Result> data);
+
+    public String getCsvFile();
 }

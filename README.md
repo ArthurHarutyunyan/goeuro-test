@@ -17,4 +17,4 @@ Compile/Package and run
     cd target
 
 4. run the test by the following command
-    java -jar GoEuroTest-1.0-SNAPSHOT-jar-with-dependencies.jar CITY_NAME
+    java -jar GoEuroTest-1.0-jar-with-dependencies.jar CITY_NAME
